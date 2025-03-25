@@ -1,0 +1,13 @@
+const paragraphs = [
+	"In recent years, more people have become aware of the importance of maintaining a healthy work-life balance. As work schedules grow busier and the lines between personal and professional time blur, it can be challenging to find time for relaxation and self-care. Many experts suggest setting clear boundaries, prioritizing tasks, and making time for activities that bring joy and fulfillment. Achieving a balance not only helps reduce stress but also improves overall productivity and well-being.",
+	"Traveling to new destinations can be an exciting and enriching experience. It offers the opportunity to explore different cultures, try new foods, and meet people from all walks of life. Each destination has its own unique charm, from the historical landmarks of Europe to the vibrant markets of Southeast Asia. Whether you prefer a beach getaway or an urban adventure, traveling broadens your perspective and creates lasting memories that stay with you long after the trip has ended.",
+	"The world of literature is vast and diverse, offering something for every reader. From classic novels to modern-day bestsellers, books have the power to transport us to different worlds and introduce us to complex characters and ideas. Many people find solace in reading, whether it's to escape the stresses of daily life or to gain insight into different perspectives. With the rise of digital reading platforms, it has become easier than ever to access a wide variety of books at the touch of a button.",
+	"Learning a new language can be a rewarding yet challenging experience. It requires time, dedication, and consistent practice. Many language learners find that immersion is one of the most effective ways to develop fluency. By surrounding themselves with native speakers, reading in the language, or watching films, learners can accelerate their progress. Although it may take years to achieve proficiency, mastering a new language opens up opportunities for travel, career advancement, and cultural exchange.",
+	"Exercise is not only important for maintaining physical health but also for improving mental well-being. Regular physical activity helps reduce stress, boosts mood, and increases energy levels. Whether it's going for a run, lifting weights, or practicing yoga, finding a form of exercise you enjoy can make it easier to stick with a routine. Additionally, incorporating movement into your daily life can help improve focus and concentration, leading to greater success in both personal and professional endeavors."
+]
+
+const getRandomParagraph = function() {
+	return paragraphs[Math.floor(Math.random() * paragraphs.length)]
+}
+
+export { getRandomParagraph }
