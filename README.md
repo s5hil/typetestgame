@@ -11,7 +11,7 @@ A typing test game that tracks mistakes, accuracy, words per minute, and charact
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/s5hil/typegame.git
+git clone https://github.com/s5hil/typetestgame.git
 cd typegame
 ```
 
