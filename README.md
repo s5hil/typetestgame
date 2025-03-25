@@ -1,8 +1,31 @@
-# React + Vite
+## Overview
+A typing test game that tracks mistakes, accuracy, words per minute, and characters per minute.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
+- React
+- Vite
+- Node.js
+- Chart.js
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+```bash
+git clone https://github.com/s5hil/typegame.git
+cd typegame
+```
+
+2. Install dependencies:
+```bash
+# Install and set up client
+cd typegame
+npm install
+```
+
+### Running the Application
+
+1. In a new terminal, start the frontend development server:
+```bash
+cd typegame
+npm run dev
+```
